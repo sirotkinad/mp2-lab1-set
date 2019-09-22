@@ -1,1 +1,6 @@
-﻿  test_bitfield.vcxproj -> C:\Users\USER\mp2-lab1-set\sln\vc9\Debug\test_bitfield.exe
+﻿  cl: командная строка warning D9035: использование параметра "Gm" нежелательно, он будет удален в следующих выпусках
+  Пропуск... (изменения не обнаружены)
+  test_tset.cpp
+  test_tbitfield.cpp
+  test_main.cpp
+  test_bitfield.vcxproj -> C:\Users\USER\mp2-lab1-set\sln\vc9\Debug\test_bitfield.exe
