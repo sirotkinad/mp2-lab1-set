@@ -112,8 +112,7 @@ TSet TSet::operator-(const int Elem) // разность с элементом
 
 TSet TSet::operator*(const TSet &s) // пересечение
 {
-	TSet Mult(s.MaxPower);
-	Mult.BitField = BitField & s.BitField;
+	TSet Mult(BitField & s.BitField);
 	return Mult;
 }
 
