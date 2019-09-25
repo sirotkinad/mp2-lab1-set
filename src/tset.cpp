@@ -80,12 +80,14 @@ int TSet::operator!=(const TSet &s) const // сравнение
 
 TSet TSet::operator+(const TSet &s) // объединение
 {
-	if (s.MaxPower >= MaxPower) {
+	if (s.MaxPower >= MaxPower) 
+	{
 		TSet Sum(s.MaxPower);
 		Sum.BitField = BitField | s.BitField;
 		return Sum;
 	}
-	else {
+	else 
+	{
 		TSet Sum(MaxPower);
 		Sum.BitField = BitField | s.BitField;
 		return Sum;
